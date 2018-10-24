@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+
+import('car')
+
+importFrom("stats", "median", "qnorm", "sd", "shapiro.test", "t.test",
+             "wilcox.test")
